@@ -39,7 +39,7 @@ SUMMARY_CSV = f"summary_results_error_{ERROR_RATE:.2f}_all_m&oD.csv"  # 汇总�
 
 # ==== DeepSeek API 配置 ====
 client = OpenAI(
-    api_key="sk-80d99ef7ad9e4ca5b1e1f47f97312f40",  # 替换为你的API Key
+    api_key="",  # 替换为你的API Key
     base_url="https://api.deepseek.com"
 )
 
